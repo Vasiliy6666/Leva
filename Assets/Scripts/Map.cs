@@ -5,13 +5,12 @@ using UnityEngine;
 
 public class Map : MonoBehaviour
 {
-
-    public GameObject mapBatton;
+    public GameObject mapButton;
     public bool isTrigged;
 
     private void Start()
     {
-        mapBatton.SetActive(false);
+        mapButton.SetActive(false);
     }
 
     private void Update()
@@ -19,7 +18,7 @@ public class Map : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && isTrigged)
         {
             gameObject.SetActive(false);
-            mapBatton.SetActive(true);
+            mapButton.SetActive(true);
         }
     }
 
