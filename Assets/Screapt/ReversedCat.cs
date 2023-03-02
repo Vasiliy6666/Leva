@@ -8,6 +8,6 @@ public class ReversedCat : MonoBehaviour
 {
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 }

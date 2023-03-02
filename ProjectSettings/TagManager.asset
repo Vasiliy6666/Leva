@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grass
+    uniqueID: 3319082773
+    locked: 0
+  - name: Dacoration
+    uniqueID: 3284615819
+    locked: 0
   - name: Objects
     uniqueID: 3980274871
     locked: 0

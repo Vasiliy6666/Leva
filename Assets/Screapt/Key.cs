@@ -5,16 +5,25 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-
-    public bool taken;
-
+    public Door door;
+    public bool isTrigged;
     
-    private void OnTriggerStay2D(Collider2D other)
+    private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && isTrigged)
         {
+            door.UpdateState();
             Destroy(gameObject);
-            taken = true;
-        }
+        } 
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        isTrigged = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        isTrigged = false;
     }
 }

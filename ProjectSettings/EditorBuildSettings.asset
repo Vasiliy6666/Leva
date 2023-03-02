@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 816b6db9abc80384ead7d0e042a0a62b
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: b04ed081c1d39fb43b173fccf365f4d6
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 3072583e451d4fa4c83a51d8413e627e
+  - enabled: 1
+    path: Assets/Scenes/SecretLevel.unity
+    guid: b2144f4a79da8554aa2e7fec4f36ffb6
+  - enabled: 1
     path: Assets/Scenes/Training.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CatScream.unity
     guid: 6f47a6b44d8f41f4099f4b0274091e61
+  - enabled: 1
+    path: Assets/Scenes/MouseScream.unity
+    guid: 8fca8949fd633e949956703e8709e10b
+  - enabled: 1
+    path: Assets/Scenes/FrogeScream.unity
+    guid: 1a487c09a3336664286d3a7b4282dfd2
   m_configObjects: {}
