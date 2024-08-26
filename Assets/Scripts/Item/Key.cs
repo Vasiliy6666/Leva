@@ -5,17 +5,23 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    public Door door;
     public bool isTrigged;
-    
+    public GameObject keyButton;
+
+    private void Start()
+    {
+        keyButton.SetActive(false);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isTrigged)
         {
-            door.UpdateState();
-            Destroy(gameObject);
-        } 
+            gameObject.SetActive(false);
+            keyButton.SetActive(true);
+        }
     }
+
 
     private void OnTriggerEnter2D(Collider2D col)
     {

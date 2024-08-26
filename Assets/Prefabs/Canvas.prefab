@@ -38,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 860, y: -0.0016785}
-  m_SizeDelta: {x: 200, y: 852.26}
+  m_AnchoredPosition: {x: 860, y: 0.010038}
+  m_SizeDelta: {x: 200, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &427472708
 CanvasRenderer:
@@ -182,7 +182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0.00022937998}
   m_SizeDelta: {x: -5, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &896986597
@@ -800,6 +800,10 @@ MonoBehaviour:
   itemsContainer: {fileID: 896986595}
   activeInventoryItem: {fileID: 88080196024173309}
   isActiveItemMoving: 0
+  gameCamera: {fileID: 0}
+  activeObjectLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &6724128304859406105
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,10 +6,11 @@ namespace Scripts
     public class InventoryItemUI : MonoBehaviour
     {
         public Image itemImage;
+        public InventoryItem inventoryItem;
         
         public void ClickDown()
         {
-            InventoryUI.instance.MoveItem(itemImage);
+            InventoryUI.instance.MoveItem(this);
         }
     }
 }

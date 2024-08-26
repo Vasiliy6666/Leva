@@ -10,5 +10,7 @@ namespace Scripts
     public class InventoryItem : ScriptableObject
     {
         public Sprite itemImage;
+        public string name;
+        
     }
 }
